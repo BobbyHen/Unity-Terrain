@@ -1,6 +1,6 @@
 # Unity-Terrain
 
-Example unity project: Creating an evironment with terrain
+Example unity project: Creating an environment with terrain
 
 ## Unity Terrain Documentation
 
