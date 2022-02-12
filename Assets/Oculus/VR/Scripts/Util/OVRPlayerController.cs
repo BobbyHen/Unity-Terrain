@@ -274,6 +274,9 @@ public class OVRPlayerController : MonoBehaviour
 
 		UpdateMovement();
 
+		// Add jump to controller
+		if (OVRInput.GetDown(OVRInput.Button.One)) Jump();
+
 		Vector3 moveDirection = Vector3.zero;
 
 		float motorDamp = (1.0f + (Damping * SimulationRate * Time.deltaTime));
@@ -355,7 +358,7 @@ public class OVRPlayerController : MonoBehaviour
 
 			// No positional movement if we are in the air
 			if (!Controller.isGrounded)
-				MoveScale = 0.0f;
+				// MoveScale = 0.0f;
 
 			MoveScale *= SimulationRate * Time.deltaTime;
 
