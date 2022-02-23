@@ -1,6 +1,6 @@
 # Unity-Terrain
 
-Example unity project: Creating an environment with terrain
+Unity VR project that demos the use of terrain builder tools.
 
 ## Assets Used
 
